@@ -1,0 +1,190 @@
+/* Add CSS styles for your portfolio website */
+
+.container {
+  background-size:100% 100%;
+  margin: 0 auto;
+  padding:0px ;
+  background-color: #26004d		;
+}
+
+.header{
+
+  display: flex;
+  align-items:center;
+  color:white;
+  background-color:black;
+  list-style-type: none;
+  margin: 0;
+  padding: 12px;
+  padding-block: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  float: left;
+text-align: center;
+}
+
+  
+
+
+.header__left{
+  flex:0.4;
+}
+.header__left>h1{
+  text-align:center;
+  letter-spacing: 1px;
+  
+}
+.header__left>h1>span{
+  color:orange;
+}
+.header__right {
+  display:flex;
+  flex:0.6;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+  
+  
+  
+  
+
+.header__right nav a{
+  list-style-type: none;
+  margin: 0;
+  
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  
+text-align: center;
+}
+a{
+  color:white;
+  letter-spacing: 1px;
+  align-items: center;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+
+}
+.active{
+  background-color: #99994d;
+}
+.section h2 {
+  padding:90px;
+  font-size:55px;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 30px;
+  
+}
+ 
+
+
+.section img{ 
+  float:right;
+  clear:left;
+padding-right: 50px;
+padding-bottom: 90px;
+  
+}
+.section p{
+  color:lightblue;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom:180px;
+  padding-top: 40px;
+  padding-left: 50px;
+
+}
+
+
+
+div  p{
+  font-size:25px ;
+  color:lightblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  
+}
+div ul li b{
+  color:darkblue;
+  font-size: 35px;
+}
+div h2{
+  color:white;
+  font-size: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  padding:120px;
+  padding-bottom: 20px;
+}
+  
+
+
+
+.skills h2 {
+  color:white;
+  font-size: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 20px;
+  
+}
+.skills ul{
+  color:lightblue;
+  font-size: 40px;
+
+}
+
+
+
+
+.project b {
+  margin-bottom: 20px;
+  color:white;
+  font-size: 30px;
+  padding-left: 20px;
+  
+}
+.project h2{
+  font-size: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-bottom: 20px;
+  padding-left: 80px;
+}
+.project p{
+  font-size: 30px;
+  padding-bottom:90px;
+  padding-left: 50px;
+}
+.contact h2 {
+  font-size:55px ;
+  padding-bottom:90px;
+  
+}
+.contact  div{
+  
+  padding-left: 50px;
+  padding-bottom: 40px;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding:15px 20px;
+  
+
+}
+.contact  button{
+  float:left;
+  clear: both;
+padding: 15px;
+}
